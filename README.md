@@ -2,18 +2,16 @@
 
 Para a criação deste projeto utilizamos o Visual Studio para criação do layout e o código C# e o SQLServer para utilização do banco. O projeto se trata de uma tela de cadastro, onde será feito o cadastro de barman de um bar.
 
-![Tela de cadastro_1](https://user-images.githubusercontent.com/105616979/168852197-9f5a47ef-9c8c-4135-a6f0-183231c887a2.jpg)
-
-
 ## Criação do banco de dados
 No SQLServer iremos criar a tabela de funcionário com os campos Nome, e-mail, Senha, Endereço e ID, onde o ID será a chave primária abaixo está a tabela criada no SQL:
 
-(Img)
+![Banco de Dados](https://user-images.githubusercontent.com/105616979/168860781-8671e2fd-4461-40a1-b8e7-16d18e51736f.jpg)
+
 
 ## Visual Studio
 Ao abrir o Visual Studio  criamos a tela de cadastro com as seguintes funções e campos NOME, E-MAIL, SENHA, ENDEREÇO e ID, os Botões CREATE, READ, UPDATE, DELETE, e incluir um DATAGRIDVIEW, está pronto o layout da tela de cadastro conforme a imagem abaixo:
 
-(Img)
+![Tela de cadastro_1](https://user-images.githubusercontent.com/105616979/168852197-9f5a47ef-9c8c-4135-a6f0-183231c887a2.jpg)
 
 Para darmos as funçoes para as  principais opções na tela de cadastro sera necessario fazer a conexão com o banco onde o codigo utilizado abaixo é necessario:
 
