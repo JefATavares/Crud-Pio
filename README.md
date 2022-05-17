@@ -52,5 +52,39 @@ Em caso de erro é utilizado o mesmo esquema de try catch:
 
 ## Função Update
 
+Para fazer uma alteração de cadastro o botão Update basta colocar o numero do ID(chave primaria) e clicar Update. Para essa função funcionar é necessario que ao coloar o ID, apartir desse ID a informação do campo que deseja alterar foi utilizado os comandos abaixo:
 
+(Img)
+
+Dados de um cadastro ja efetuado:
+
+(Img)
+
+Efetuando a alteração em um cadastro:
+
+(Img)
+
+Try catch em caso de erro:
+
+(Img)
+
+## Função Delete
+
+Para a função de deletar um cadastro dentro do banco de dados, foi necessario a utilização do codigo abaixo para que quando clicar em delete o comando seja executado no banco e remova o cadastro:
+
+(Img banco)
+
+Deletando um castro:
+
+(Img deletando um cadastro)
+
+(codigo execultando exclusão)
+
+Em caso de erro a mensagem é exibida com a sequencia de comando try catch apresentada
+
+(Img comando)
+
+(Img erro)
+
+obrigado!
 
