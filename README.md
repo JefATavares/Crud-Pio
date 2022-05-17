@@ -2,6 +2,9 @@
 
 Para a criação deste projeto utilizamos o Visual Studio para criação do layout e o código C# e o SQLServer para utilização do banco. O projeto se trata de uma tela de cadastro, onde será feito o cadastro de barman de um bar.
 
+![Tela de cadastro_1](https://user-images.githubusercontent.com/105616979/168852197-9f5a47ef-9c8c-4135-a6f0-183231c887a2.jpg)
+
+
 ## Criação do banco de dados
 No SQLServer iremos criar a tabela de funcionário com os campos Nome, e-mail, Senha, Endereço e ID, onde o ID será a chave primária abaixo está a tabela criada no SQL:
 
