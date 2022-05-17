@@ -8,6 +8,27 @@ No SQLServer iremos criar a tabela de funcionário com os campos Nome, e-mail, S
 ![Banco de Dados](https://user-images.githubusercontent.com/105616979/168860781-8671e2fd-4461-40a1-b8e7-16d18e51736f.jpg)
 
 
+```
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[tbFuncionarios](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Nome] [varchar](50) NOT NULL,
+	[Email] [varchar](50) NOT NULL,
+	[Senha] [varchar](50) NOT NULL,
+	[Endereco] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_tbFuncionarios] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+```
+
 ## Visual Studio
 Ao abrir o Visual Studio  criamos a tela de cadastro com as seguintes funções e campos NOME, E-MAIL, SENHA, ENDEREÇO e ID, os Botões CREATE, READ, UPDATE, DELETE, e incluir um DATAGRIDVIEW, está pronto o layout da tela de cadastro conforme a imagem abaixo:
 
