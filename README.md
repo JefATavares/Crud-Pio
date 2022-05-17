@@ -18,9 +18,10 @@ Para darmos as funçoes para as  principais opções na tela de cadastro sera ne
 (Img)
 
 ## Fução Create.
-Para que a função incluir esteja funcionando,é necessario fazer com que ao clicar no botão Crete, os dados digitados nos campos sejam armazenados no banco de dados atravez dos codigos abaixo:
+Para que a função incluir esteja funcionando,é necessario fazer com que ao clicar no botão Create, os dados digitados nos campos sejam armazenados no banco de dados atravez dos codigos abaixo:
 
-(Img)
+![Código_1](https://user-images.githubusercontent.com/105616979/168862277-4cfd9812-d41b-4e8e-a758-fdecd22a3b0d.jpg)
+
 
 Exemplo de inclusão:
 
